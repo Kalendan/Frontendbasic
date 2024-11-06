@@ -1,7 +1,7 @@
 // Функция для загрузки и отображения списка дел
 async function loadTodos() {
     try {
-        // Загружаем список дел с сервера
+        // Загружаем список  с сервера
         const response = await fetch('https://jsonplaceholder.typicode.com/todos');
         const todos = await response.json();
 
